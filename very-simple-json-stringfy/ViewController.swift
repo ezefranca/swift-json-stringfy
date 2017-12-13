@@ -2,9 +2,6 @@
 //  ViewController.swift
 //  very-simple-json-stringfy
 //
-//  Created by Ezequiel França on 13/12/17.
-//  Copyright © 2017 Ezequiel. All rights reserved.
-//
 
 import UIKit
 
@@ -12,14 +9,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        guard let dict = JsonStringfy.loadJSONFile(fileName: "Example") else {
+            return
+        }
+        let stringfied = JsonStringfy.prettyPrint(with: dict)
+        print(stringfied)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

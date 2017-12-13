@@ -13,6 +13,8 @@
 		B668743E1FE16C4D003208A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B668743D1FE16C4D003208A3 /* Assets.xcassets */; };
 		B66874411FE16C4D003208A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B668743F1FE16C4D003208A3 /* LaunchScreen.storyboard */; };
 		B668744C1FE16C4E003208A3 /* very_simple_json_stringfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668744B1FE16C4E003208A3 /* very_simple_json_stringfyTests.swift */; };
+		B66874571FE16C8C003208A3 /* JsonStringfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66874561FE16C8C003208A3 /* JsonStringfy.swift */; };
+		B668745A1FE16DA0003208A3 /* Example.json in Resources */ = {isa = PBXBuildFile; fileRef = B66874591FE16DA0003208A3 /* Example.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B66874471FE16C4E003208A3 /* very-simple-json-stringfyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "very-simple-json-stringfyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B668744B1FE16C4E003208A3 /* very_simple_json_stringfyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = very_simple_json_stringfyTests.swift; sourceTree = "<group>"; };
 		B668744D1FE16C4E003208A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66874561FE16C8C003208A3 /* JsonStringfy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonStringfy.swift; sourceTree = "<group>"; };
+		B66874591FE16DA0003208A3 /* Example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Example.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		B66874351FE16C4D003208A3 /* very-simple-json-stringfy */ = {
 			isa = PBXGroup;
 			children = (
+				B66874581FE16C9A003208A3 /* JsonStringFy */,
 				B66874361FE16C4D003208A3 /* AppDelegate.swift */,
 				B66874381FE16C4D003208A3 /* ViewController.swift */,
+				B66874591FE16DA0003208A3 /* Example.json */,
 				B668743A1FE16C4D003208A3 /* Main.storyboard */,
 				B668743D1FE16C4D003208A3 /* Assets.xcassets */,
 				B668743F1FE16C4D003208A3 /* LaunchScreen.storyboard */,
@@ -94,6 +100,14 @@
 				B668744D1FE16C4E003208A3 /* Info.plist */,
 			);
 			path = "very-simple-json-stringfyTests";
+			sourceTree = "<group>";
+		};
+		B66874581FE16C9A003208A3 /* JsonStringFy */ = {
+			isa = PBXGroup;
+			children = (
+				B66874561FE16C8C003208A3 /* JsonStringfy.swift */,
+			);
+			path = JsonStringFy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B668745A1FE16DA0003208A3 /* Example.json in Resources */,
 				B66874411FE16C4D003208A3 /* LaunchScreen.storyboard in Resources */,
 				B668743E1FE16C4D003208A3 /* Assets.xcassets in Resources */,
 				B668743C1FE16C4D003208A3 /* Main.storyboard in Resources */,
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66874571FE16C8C003208A3 /* JsonStringfy.swift in Sources */,
 				B66874391FE16C4D003208A3 /* ViewController.swift in Sources */,
 				B66874371FE16C4D003208A3 /* AppDelegate.swift in Sources */,
 			);
