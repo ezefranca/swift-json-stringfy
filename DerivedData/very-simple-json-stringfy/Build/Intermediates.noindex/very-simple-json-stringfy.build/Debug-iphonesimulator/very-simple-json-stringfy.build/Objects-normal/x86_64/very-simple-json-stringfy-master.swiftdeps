@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
-options: "98125a0c93f0ac0be07f5f2512625915"
-build_time: [1513175098, 636906000]
-inputs:
-  "/Users/ezequielfranca/Desktop/Pessoal/very-simple-json-stringfy/very-simple-json-stringfy/JsonStringFy/JsonStringfy.swift": [1513174983, 0]
-  "/Users/ezequielfranca/Desktop/Pessoal/very-simple-json-stringfy/very-simple-json-stringfy/ViewController.swift": [1513175096, 0]
-  "/Users/ezequielfranca/Desktop/Pessoal/very-simple-json-stringfy/very-simple-json-stringfy/AppDelegate.swift": [1513174221, 0]
