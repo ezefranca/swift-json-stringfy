@@ -14,9 +14,8 @@ class ViewController: UIViewController {
         guard let dict = JsonStringfy.loadJSONFile(fileName: "Example") else {
             return
         }
-        let stringfied = JsonStringfy.prettyPrint(with: dict)
-        print(stringfied)
-        textView.text = stringfied
+        JsonStringfy.prettyPrint(dict)
+        textView.text = JsonStringfy.prettyString(dict)
     }
 }
 

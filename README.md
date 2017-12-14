@@ -9,7 +9,7 @@
 ## Installation
 
 #### Manually
-1. Download and drop [```JSONStringify.swift```](https://github.com/ezefranca/swift-json-stringfy/blob/master/very-simple-json-stringfy/JsonStringFy/JsonStringfy.swift) in your project to your project / target.  
+1. Download and drop [```JSONStringfy.swift```](https://github.com/ezefranca/swift-json-stringfy/blob/master/very-simple-json-stringfy/JsonStringFy/JsonStringfy.swift) in your project to your project / target.  
 2. Congratulations!  
 
 ## Usage example
@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         guard let dict = JsonStringfy.loadJSONFile(fileName: "Example") else {
             return
         }
-        let stringfied = JsonStringfy.prettyPrint(with: dict)
-        print(stringfied)
+        JsonStringfy.prettyPrint(dict)
+        textView.text = JsonStringfy.prettyString(dict)
     }
 }
 
